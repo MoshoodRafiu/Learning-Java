@@ -23,5 +23,11 @@ public class TDarrays {
     System.out.println(newGrades[0]);
     System.out.println(newGrades[0]);
     System.out.println(newGrades[0]);
+
+    for (int i = 0; i < newGrades.length; i++) {
+       for (int j = 0; j < newGrades[0].length; j++) {
+        System.out.println(newGrades[i][j]);
+      }
+    }
   }
 }
