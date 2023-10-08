@@ -5,7 +5,7 @@ public class Main {
     Car nissan = new Car("Nissan", 10000, 2020, "Green", spareParts);
     Car dodge = new Car("Dodge", 11000, 2019, "Blue", spareParts);
 
-    nissan.drive();
-    dodge.drive();
+    System.out.println(nissan);
+    System.out.println(dodge);
   }
 }

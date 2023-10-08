@@ -67,4 +67,12 @@ public class Car {
     System.out.println("\n You bought the beautiful " + year + " " + color + " " + make);
     System.out.println("Please drive to the nearest exit.");
   }
+
+  public String toString() {
+    return "Make: " + this.make + ".\n"
+        + "Price: " + this.price + ".\n"
+        + "Year: " + this.year + ".\n"
+        + "Color: " + this.color + ".\n"
+        + "Parts: " + Arrays.toString(parts) + ".\n";
+  }
 }
