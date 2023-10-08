@@ -49,4 +49,9 @@ public class Car {
   public void setColor(String color) {
     this.color = color;
   }
+
+  public void drive() {
+    System.out.println("\n You bought the beautiful " + year + " " + color + " " + make);
+    System.out.println("Please drive to the nearest exit.");
+  }
 }
